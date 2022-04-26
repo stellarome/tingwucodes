@@ -228,6 +228,10 @@ body {
       width: 90%;
       height: 90%;
     }
+      
+    .profile {
+      margin: 7em auto 7em auto;
+    }
 
     .profile h2 {
       font-size: 2em;
@@ -235,17 +239,22 @@ body {
     }
 
     .project-text {
-      font-size: 2em;
+      font-size: 1.6em;
       padding-bottom: .3em;
       padding-top: 1.3em;
     }
 
     .middle-bottom {
-      margin: 2em 2em;
+      margin: 2em 1.5em;
+    }
+    
+    .carousel-inner {
+      max-width: 90%;
+      max-height: 80%;
     }
 
     .carousel-inner h3 {
-      padding-bottom: 1.3em;
+      padding-bottom: 1.5em;
     }
 
     .upper-bottom-text {
