@@ -245,12 +245,12 @@ body {
     }
 
     .middle-bottom {
-      margin: 2em 1.5em;
+      margin: 0;
     }
     
     .carousel-inner {
-      max-width: 90%;
-      max-height: 80%;
+      max-width: 95%;
+      max-height: 85%;
     }
 
     .carousel-inner h3 {
@@ -258,7 +258,7 @@ body {
     }
 
     .upper-bottom-text {
-      font-size: 1.3em;
+      font-size: 1.5em;
     }
 
     .title-row {
@@ -270,7 +270,7 @@ body {
     }
     
     .bottom-container {
-      margin: 10em auto 3em auto;
+      margin: 6em auto 3em auto;
    }
 
     .footer {
@@ -284,6 +284,10 @@ body {
     .branding-text h1{
       font-size: .8em;
       max-width: 40%;
+      padding: .5em;
+      background-image: url("../images/background.jpeg");
+      color: #D4E2D4;
+      margin-bottom: 2em;
     }
 
     .email {
