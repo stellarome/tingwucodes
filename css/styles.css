@@ -204,7 +204,7 @@ body {
     .top-container {
       font-size: 1em;
       padding-top: 1em;
-      margin-top: 2em;
+      margin-top: 0;
     }
 
     .navbar-nav {
@@ -223,7 +223,7 @@ body {
     }
 
     .front-page {
-      margin: 1em 1em;
+      margin: .8em .5em;
       width: 22em;
       height: 28em;
       object-fit: cover;
@@ -250,9 +250,9 @@ body {
     }
     
     .carousel-inner img{
-      width: 15em;
-      height: 20em;
-      object-fit: cover;
+      width: 18em;
+      height: 23em;
+      object-fit:inherit;
     }
 
     .carousel-inner h3 {
