@@ -115,7 +115,7 @@ body {
     font-family: 'Cormorant Garamond', serif;
     font-size: 3.4em;
     padding-top: .8em;
-    padding-bottom: .8em;
+    padding-bottom: .4em;
   }
 
   .middle-bottom {
@@ -129,8 +129,7 @@ body {
     max-width: 70%;
     max-height: 60%;
     margin: 1em auto;
-    text-align: center;
-    
+    text-align: center;  
   }
 
   h3 {
@@ -225,8 +224,9 @@ body {
 
     .front-page {
       margin: 1em 1em;
-      width: 90%;
-      height: 90%;
+      width: 22em;
+      height: 28em;
+      object-fit: cover;
     }
       
     .profile {
@@ -240,7 +240,7 @@ body {
 
     .project-text {
       font-size: 1.6em;
-      padding-bottom: .3em;
+      padding-bottom: .6em;
       padding-top: 1.3em;
     }
 
@@ -249,13 +249,15 @@ body {
       border-radius: 0em;
     }
     
-    .carousel-inner {
-      max-width: 95%;
-      max-height: 85%;
+    .carousel-inner img{
+      width: 15em;
+      height: 20em;
+      object-fit: cover;
     }
 
     .carousel-inner h3 {
-      padding-bottom: 1.5em;
+      padding-bottom: .5em;
+      font-size: .8em;
     }
 
     .upper-bottom-text {
@@ -279,7 +281,7 @@ body {
     }
 
     .copyright {
-      padding-left: 60%;
+      padding-left: 45%;
     }
 
     .branding-text h1{
@@ -292,7 +294,7 @@ body {
     }
 
     .email {
-      font-size: 3em;
+      font-size: 2.5em;
     }
   
 
